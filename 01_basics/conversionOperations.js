@@ -24,3 +24,13 @@ let Me = undefined
 // console.log(typeof strToInt)
 // console.log(typeof intToStr)
 
+console.log("1" + 2); // 12
+console.log(1 + "2"); // 12
+console.log("1" + 2 + 2); // 122
+console.log(1 + 2 + "2"); // 32
+
+// let gameCounter = 100;
+
+// x = gameCounter++ // x = 100, gameCounter = 101
+// y = ++ gameCounter // y = 101, gameCounter = 101
+
