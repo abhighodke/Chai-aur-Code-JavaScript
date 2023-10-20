@@ -18,3 +18,4 @@ const newArr = myNums
 console.log(newArr)
 
 // reduce
+
