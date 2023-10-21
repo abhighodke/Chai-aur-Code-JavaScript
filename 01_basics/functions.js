@@ -19,9 +19,9 @@
 // user.name = "Aniket";
 // user.welcomeMsg();
 
-const addTwo = (num1, num2) => num1 + num2
-const multiplyTwo = (num1, num2) => (num1 * num2)
-const returningObject = () => ({username: "Abhishek"})
-console.log(addTwo(3, 4))
-console.log(multiplyTwo(5,6))
-console.log(returningObject());
+// const addTwo = (num1, num2) => num1 + num2
+// const multiplyTwo = (num1, num2) => (num1 * num2)
+// const returningObject = () => ({username: "Abhishek"})
+// console.log(addTwo(3, 4))
+// console.log(multiplyTwo(5,6))
+// console.log(returningObject());

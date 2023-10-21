@@ -1,5 +1,5 @@
-const myarr = [1, 2, 4, 5, 7];
-const myarr2 = new Array(4, 5, 6);
+// const myarr = [1, 2, 4, 5, 7];
+// const myarr2 = new Array(4, 5, 6);
 
 // Array Methods
 

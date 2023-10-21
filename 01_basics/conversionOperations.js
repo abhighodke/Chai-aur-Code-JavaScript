@@ -24,10 +24,10 @@ let Me = undefined
 // console.log(typeof strToInt)
 // console.log(typeof intToStr)
 
-console.log("1" + 2); // 12
-console.log(1 + "2"); // 12
-console.log("1" + 2 + 2); // 122
-console.log(1 + 2 + "2"); // 32
+// console.log("1" + 2); // 12
+// console.log(1 + "2"); // 12
+// console.log("1" + 2 + 2); // 122
+// console.log(1 + 2 + "2"); // 32
 
 // let gameCounter = 100;
 
