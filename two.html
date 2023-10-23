@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur Code | DOM </title>
+</head>
+<body style="background-color: #212121; color: #ffff;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+    <script>
+        // const list = document.createElement('li')
+        // list.className = "myList"
+        // list.id = '1'
+        // const text = document.createTextNode("Python")
+        // list.appendChild(text)
+        // const ulist = document.querySelector('ul')
+
+        // ulist.appendChild(list)
+
+        function addLang(lang) {
+            const li = document.createElement('li')
+            li.appendChild(document.createTextNode(lang))
+            document.querySelector('.language').appendChild(li)
+        }
+
+        addLang('React')
+        addLang('Typescript')
+        addLang('goLang')
+
+        //Edit
+
+        const secondLang = document.querySelector('li:nth-child(2)')
+        const newLi = document.createElement('li')
+        newLi.appendChild(document.createTextNode('Mojo'))
+        secondLang.replaceWith(newLi)
+
+        const firstLang = document.querySelector('li')
+        const newLang = document.createElement('li')
+        newLang.appendChild(document.createTextNode('Typescript'))
+        firstLang.replaceWith(newLang)
+
+        // remove
+        const lastLang = document.querySelector('li:last-child')
+        lastLang.remove()
+
+    </script>
+</html>

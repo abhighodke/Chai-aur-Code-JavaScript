@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Learning</title>
+    <style>
+        .bg-black {
+            background-color: #212121;
+            color: #ffff;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    
+</body>
+    <script>
+        const div = document.createElement('div')
+        console.log(div);  
+        div.className = "main"
+        div.id = Math.floor(Math.random() * 10 + 1)
+        div.setAttribute("title", "Generated Title")
+        div.style.backgroundColor = "green"
+        div.style.padding = '12px'
+        //div.innerText = "Chai aur Code"
+        const addText = document.createTextNode("Chai aur Code")
+        div.appendChild(addText)
+
+        document.body.appendChild(div)
+
+
+        const h = document.createElement('h3')
+        h.className = "heading-class"
+        h.id = Math.round(Math.random() * 10 + 1)
+        h.style.backgroundColor = 'red'
+        h.style.padding = '12px'
+
+        const text = document.createTextNode("Abhishek")
+        h.appendChild(text)
+
+        document.body.appendChild(h)
+
+    </script>
+</html>
